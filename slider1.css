@@ -1,34 +1,104 @@
+html{
+    display: block;
+}
+
+
 body{
 
-    background-image: url("img1.jpg");
-    background-color: black;
+/*    background-image: url("img1.jpg");
+*/    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Helvetica", sans-serif;
   color: #136c67;
+   margin: 0;
 
 }
 
 h1 {
   color: orange;
-  font-family: "Times New Roman", serif;
+  
 }
 nav ul {
-    background-color: white;
-    width: 1480px;
-    height: 26px;
+    background-color: #ddd;
+    width: 1450px;
+    height: 45px;
+    overflow: hidden;
+    /*padding-bottom: 30px;*/
+    /*margin-bottom: 35px;*/
+
+
+
 }
+ main{
+    height: 250px;
+ }
 
 nav ul li {
     list-style-type: none;
-    display: inline;
-    padding-top: 5px;
-    margin-right:10px;
-    margin-left:10px;
+    float: left;
+    /*display:block;*/
+    color: #f2f2f2;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px
+    margin-right:25px;
+    margin-left:15px;
+    text-decoration: none;
 }
 
 
 nav ul li a {
+    float: left;
+    display: block;
+     text-align: inline;
+     padding-top: 18px 20px;
     text-decoration: none;
+    font-size: 27px;
+    padding-right: 170px;
+    color: #4f6464;
+
 }
-color: PapayaWhip;
+
+table tr th img {
+    border-radius:50%;
+}
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+.Image {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 37px;
+  height: 300px;
+  width: 440px;
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: left;
+
+}
+
+</style>
